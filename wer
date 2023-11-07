@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Сайт с кнопками</title>
+  <style>
+    body {
+      background-color: Moccasin;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .image {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+</head>
+<body>
+  <img src="your_image_url" alt="Your Image" class="image">
+   <a href="C:\Users\artur\OneDrive\Рабочий стол\робототехника\npp.8.5.1.Installer.x64.exe" download class="button">Скачать</a>
+  <a href="#" class="button">Скачать сейчас</a>
+</body>
+</html>
